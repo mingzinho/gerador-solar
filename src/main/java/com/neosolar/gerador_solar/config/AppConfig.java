@@ -13,5 +13,4 @@ public class AppConfig {
         return new RestTemplate();
     }
 
-    // Você pode adicionar outras configurações e beans, como propriedades para caminhos de arquivos.
 }

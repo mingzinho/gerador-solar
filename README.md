@@ -38,8 +38,13 @@ Este projeto automatiza a configuração de geradores de energia solar com base 
 ## Testes e Implantação
 
 - **Testes Manuais:**  
-  Endpoints REST (por exemplo, `/generate/csv` e `/generate/pdf`) permitem a geração sob demanda dos relatórios para verificação.
-
+  Endpoints REST (por exemplo, `/generate/csv` e `/generate/pdf`) permitem a geração sob demanda dos relatórios para verificação. Exemplo:
+  ```bash
+  http://localhost:9090/generate/csv
+  ```
+  ```bash
+  http://localhost:9090/generate/pdf
+  ```
 - **Deploy:**  
   O projeto é empacotado como uma aplicação Spring Boot autônoma e pode ser implantado em ambientes compatíveis com Java.
 
